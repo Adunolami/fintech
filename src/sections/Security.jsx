@@ -15,7 +15,6 @@ const SecurityFeature = ({ icon, title }) => (
 const Security = () => {
   return (
     <section className="py-20 gradient-dark relative overflow-hidden">
-      {/* Background Elements */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-20 w-64 h-64 rounded-full bg-[#05b993] blur-3xl" />
         <div className="absolute bottom-20 right-20 w-64 h-64 rounded-full bg-[#a3ff6b] blur-3xl" />
@@ -31,7 +30,6 @@ const Security = () => {
                 className="rounded-3xl shadow-2xl"
               />
               
-              {/* Floating Security Features */}
               <div className="absolute -right-16 top-1/4 w-32">
                 <SecurityFeature
                   icon={<Shield className="w-5 h-5 text-[#05b993]" />}

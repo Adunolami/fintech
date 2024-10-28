@@ -1,6 +1,8 @@
+// Hero.jsx
 import React from 'react';
 import Button from '../ui/Button';
-import Photo from '../assets/Group.png'
+import Photo from '../assets/Group.png';
+import Footers from '../sections/Footer1'
 
 const Hero = () => {
   return (
@@ -14,7 +16,7 @@ const Hero = () => {
               <span className="text-[#a3ff6b]">FLEXIBILITY</span>
             </h1>
             <p className="text-gray-300 text-lg mb-8 max-w-lg">
-              No-Free Checking Account with Cash Bank Rewardas. Enjoy Free-Fee Banking And Earn Cash Back On Your Everyday Purchase 
+              No-Free Checking Account with Cash Back Rewards. Enjoy Free-Fee Banking And Earn Cash Back On Your Everyday Purchases.
             </p>
             <Button 
               variant="primary" 
@@ -22,15 +24,6 @@ const Hero = () => {
             >
               Open Account
             </Button>
-            
-            <div className="flex flex-wrap items-center gap-8 mt-12">
-              <img src="/api/placeholder/80/30" alt="Referrals" className="h-8" />
-              <img src="/api/placeholder/80/30" alt="LinkedIn" className="h-8" />
-              <img src="/api/placeholder/80/30" alt="VISA" className="h-8" />
-              <img src="/api/placeholder/80/30" alt="Amazon Pay" className="h-8" />
-              <img src="/api/placeholder/80/30" alt="PayPal" className="h-8" />
-              <img src="/api/placeholder/80/30" alt="Money" className="h-8" />
-            </div>
           </div>
           
           <div className="md:w-1/2 relative">
@@ -40,11 +33,12 @@ const Hero = () => {
                 alt="Mobile app interface"
                 className="relative rounded-3xl shadow-2xl"
               />
-              <div className="absolute -right-4 -bottom-4 w-full h-full border-2 border-[#05b993] rounded-3xl"></div>
+              <div className="absolute -right-4 -bottom-4 w-full h-full b rounded-3xl"></div>
             </div>
           </div>
         </div>
       </div>
+      <Footers />
     </section>
   );
 };

@@ -22,7 +22,7 @@ const Features = () => {
   }));
 
   return (
-    <section className="py-20 bg-[#023047]">
+    <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-12">
           <div className="bg-gradient-to-br from-[#034057] to-[#046077] p-8 rounded-3xl">
@@ -78,7 +78,7 @@ const Features = () => {
           <div className="space-y-6">
             <div className="mb-8">
               <h2 className="text-3xl font-bold mb-4">ALL YOUR MONEY NEEDS IN ONE APP</h2>
-              <p className="text-gray-300">Advanced tools to track, manage, and optimize your finances with real-time insights and automated features.</p>
+              <p className="text-gray-300"></p>
             </div>
             
             <FeatureBox
